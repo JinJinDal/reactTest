@@ -1,0 +1,25 @@
+header{
+    background-color: black;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        a{
+            color: white;
+        }
+    }
+}
+main{
+    width: 70%; margin: 0 auto;
+}
+article{
+    margin: 100px 0;
+}
+*{
+    line-height: 2;
+}
+*:not(h2){
+    color: #555;
+}
+h2{
+    color: black;
+}
